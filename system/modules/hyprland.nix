@@ -24,5 +24,6 @@
       rofi-wayland	
       waybar
       xfce.thunar
+      hyprland
     ];
 }
