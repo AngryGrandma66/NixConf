@@ -4,8 +4,7 @@
 	home.homeDirectory = "/home/martin";
 	home.stateVersion= "24.11";
 
-	{
-		wayland.windowManager.hyprland.enable=true;
-	};
-
+home.sessionVariable={
+XDG_SESSION_TYPE = "wayland";
+};
 }
