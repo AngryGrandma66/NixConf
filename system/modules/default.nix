@@ -19,5 +19,6 @@
         ./users.nix
         ./virtualisation.nix
 	./boot.nix
+	./ProgEnvs
     ];
 }
