@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs,pkgs-unstable, ... }:
 
 {
     programs.hyprland = {
@@ -24,6 +24,5 @@
       rofi-wayland	
       waybar
       xfce.thunar
-      hyprland
-    ];
+    ]++[pkgs-unstable.hyprland];
 }
