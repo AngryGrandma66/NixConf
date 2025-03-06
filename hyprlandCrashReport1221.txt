@@ -1,7 +1,7 @@
 --------------------------------------------
    Hyprland Crash Report
 --------------------------------------------
-I tried so hard, and got so far...
+*thud*
 
 Hyprland received signal 6(ABRT)
 Version: 882f7ad7d2bbfc7440d0ccaef93b1cdd78e8e3ff
@@ -53,28 +53,28 @@ Backtrace:
 	#2 | /run/current-system/sw/bin/hyprland() [0x5a3e3d]
 		handleUnrecoverableSignal(int)
 		??:?
-	#3 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x40f30) [0x7f00dd840f30]
+	#3 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x40f30) [0x7fc392840f30]
 		??
 		??:0
-	#4 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x9916c) [0x7f00dd89916c]
+	#4 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x9916c) [0x7fc39289916c]
 		??
 		??:0
-	#5 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(gsignal+0x16) [0x7f00dd840e86]
+	#5 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(gsignal+0x16) [0x7fc392840e86]
 		??
 		??:0
-	#6 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(abort+0xd7) [0x7f00dd82893a]
+	#6 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(abort+0xd7) [0x7fc39282893a]
 		??
 		??:0
-	#7 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xadc3d) [0x7f00ddcadc3d]
+	#7 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xadc3d) [0x7fc392cadc3d]
 		??
 		??:0
-	#8 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xbf20a) [0x7f00ddcbf20a]
+	#8 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xbf20a) [0x7fc392cbf20a]
 		??
 		??:0
-	#9 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(_ZSt10unexpectedv+0) [0x7f00ddcad7e9]
+	#9 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(_ZSt10unexpectedv+0) [0x7fc392cad7e9]
 		??
 		??:0
-	#1 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xbf487) [0x7f00ddcbf487]
+	#1 | /nix/store/g73qbrh4mpxymzwq0fzdd3rhvn6jwn5m-gcc-14-20241116-lib/lib/libstdc++.so.6(+0xbf487) [0x7fc392cbf487]
 		??
 		??:0
 	#11 | /run/current-system/sw/bin/hyprland() [0x73ad75]
@@ -86,10 +86,10 @@ Backtrace:
 	#13 | /run/current-system/sw/bin/hyprland(main+0x94d) [0x7a0b5d]
 		main
 		??:?
-	#14 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x2a1fe) [0x7f00dd82a1fe]
+	#14 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(+0x2a1fe) [0x7fc39282a1fe]
 		??
 		??:0
-	#15 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(__libc_start_main+0x89) [0x7f00dd82a2b9]
+	#15 | /nix/store/6q2mknq81cyscjmkv72fpcsvan56qhmg-glibc-2.40-66/lib/libc.so.6(__libc_start_main+0x89) [0x7fc39282a2b9]
 		??
 		??:0
 	#16 | /run/current-system/sw/bin/hyprland(_start+0x25) [0x55c7e5]
