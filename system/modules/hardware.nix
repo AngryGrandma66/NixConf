@@ -1,13 +1,13 @@
 { config, pkgs, ... }: 
+
 {
  hardware = {
- 	bluetooth = {
+    bluetooth.enable = true;
+
+	opengl = {
 		enable = true;
-		powerOnBoot = false;
-		};
-	graphics= {
-		enable = true;
-		enable32Bit= true; 
+		driSupport = true;
+		driSupport32Bit = true;
+	};
  };
-};
 }

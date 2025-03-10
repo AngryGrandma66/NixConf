@@ -1,28 +1,22 @@
-{ config, pkgs,pkgs-unstable, ... }:
+{ config, pkgs, ... }:
 
 {
     programs.hyprland = {
-    	enable = true;
-        xwayland = {
-            enable = true;
-        };
-        portalPackage = pkgs.xdg-desktop-portal-hyprland;
+        enable = true;
     };
 
     environment.systemPackages = with pkgs; [
       hyprpaper
       kitty
       libnotify
-      swaynotificationcenter
+      mako
       qt5.qtwayland
       qt6.qtwayland
-      hypridle
-      hyprlock
+      swayidle
+      swaylock-effects
       wlogout
       wl-clipboard
-      cliphist
-      rofi-wayland	
+      wofi
       waybar
-      xfce.thunar
-    ]++[pkgs-unstable.hyprland];
+    ];
 }

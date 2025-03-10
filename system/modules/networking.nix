@@ -2,9 +2,9 @@
 
 {
   networking = {
-	hostName = "martin-nixos";
+	hostName = "nixos-personal";
 	networkmanager.enable = true;
 	enableIPv6 = false;
-	firewall.enable = true;
+	firewall.enable = false;
   };
 }

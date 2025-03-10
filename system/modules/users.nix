@@ -10,7 +10,6 @@ users.users.martin= {
         "kvm"
         "libvirtd"
         "networkmanager"
-	"video"
      ]; 
    };
 }

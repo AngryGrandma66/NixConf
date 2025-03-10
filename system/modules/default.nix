@@ -2,10 +2,13 @@
 
 {
     imports = [
+        ./boot.nix
         ./fonts.nix
+        ./gaming.nix
         ./hardware.nix
         ./hyprland.nix
         ./internationalisation.nix
+        ./misc.nix
         ./networking.nix
         ./nixsettings.nix
         ./packages.nix
@@ -18,7 +21,5 @@
         ./theme.nix
         ./users.nix
         ./virtualisation.nix
-	./boot.nix
-	./devEnvs
     ];
 }

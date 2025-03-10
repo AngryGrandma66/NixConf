@@ -1,6 +1,5 @@
 { ... }:
 
 {
-    time.timeZone = "Europe/Prague";
-
+    time.timeZone = "Asia/Tbilisi";
 }
